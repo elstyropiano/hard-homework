@@ -7,18 +7,73 @@ const people = [
     {
         firstName: "asdasdasd",
         lastName: "Wjkasdkjas",
-      },
-  ];
+    },
+  ]
+
+  // const getNames=people.map(people=>people.firstName)
+  // console.log(getNames)
 
 
-
-
-function createNickname(people){
-  const getNames
+function createNickname(people){                                 // function CreateNickname add new key in Object like nickname 
+  const getName=people.map(firstName=>firstName.firstName)       // return simple name
+  const getLastName=people.map(firstName=>firstName.firstName)   // return simple name
+  function  getName(getNames){                              
+  for(i=0;i<getNames.length;i++)                            
+  return getNames[i]                                       
+  }
+  const name=getName(getNames) 
+  return name                                                     //return simple name
+const getLastName=people.map(getLastName=>getLastName.getLastName)   //retrun simple last name
+function  getName(getNames){                              
+for(i=0;i<getNames.length;i++)                            
+return getNames[i]                                     
 }
+return getName(getNames)                                          //retrun simple last name
 
 
-// const getThreeLastReverseLetters=arr.map(lastName=>{
+  // const getThreeReverseNamesLetters=getName=>{  
+  //  const lettersArr=[]
+  //   if(getName.length>3){
+  //     for(i=0;i<3;i++){
+  //       let letter=getNames[i]
+  //      return lettersArr.push(letter)
+        
+  //     }}}
+  //     return getThreeReverseNamesLetters(getName(getNames))
+  //   }
+ 
+
+
+  
+  
+//     }}
+//     return getThreeReverseNamesLetters(getNames)
+//  }
+
+ console.log(createNickname(people))
+ 
+
+  
+
+
+  
+    
+  //  const lettersArr=[]
+  //  const reversed=lettersArr.push(lastNames)
+  //  return reversed
+  
+
+ 
+// const slowa={
+    
+//     lastName: "Wjkasdkjas",
+//   }
+  
+// console.log(getThreeReverseNamesLetters(slowa))
+
+
+
+// const getThreeLastReverseLetaters=arr.map(lastName=>{
 //     const reverse=lastName.reverse()
 //     const lettersArr=[]
 //     if(lastName.length>3){
